@@ -1,0 +1,10 @@
+#advanced_warning指令的使用
+
+<player>  玩家，信息的接收者@必须填写的字段
+<context> 内容 字符串 @必须填写的字段
+[size] 大小@默认为1.0
+[xPosition] x位置，相对窗口的比例。默认为0.5
+[yPosition] y位置，相对窗口的比例。默认为0.5
+    @这里指字符串中心位置
+    @xPosition 和 yPosition都为0.5意为窗口正中。
+[ticks]显示刻数@默认为10.0

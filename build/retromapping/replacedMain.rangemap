@@ -1,0 +1,599 @@
+Unsupposrted library path: E:\project\MC MOD\OfstreamA\AdvancedWarning\IdeallandFramework-master\AdvancedWarning\build\classes\java\api
+Unsupposrted library path: E:\project\MC MOD\OfstreamA\AdvancedWarning\IdeallandFramework-master\AdvancedWarning\build\resources\api
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java" md5: ac41dda2dc3d0148dbd3bdfba5a91c08
+@|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|8|54|com.Hileb.ofstream_advancement.AdvancementData|package|com.Hileb.ofstream_advancement.AdvancementData|(file)
+Class Start: com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|854|862|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|863|867|Side|class|net.minecraftforge.fml.relauncher.Side|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|868|874|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|878|900|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|901|906|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|909|921|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|922|927|MODID|field|com.Hileb.ofstream_advancement.IdlFramework|MODID
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|928|933|value|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|value|()[Lnet/minecraftforge/fml/relauncher/Side;
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|936|940|Side|class|net.minecraftforge.fml.relauncher.Side|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|941|947|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|963|985|AdvancementDataManager|class|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1013|1028|DataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1008|1012|List|class|java.util.List|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1008|1012|List|class|java.util.List|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1013|1028|DataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1030|1042|ADVANCEMENTS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|ADVANCEMENTS|
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1047|1056|ArrayList|class|java.util.ArrayList|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1091|1097|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1103|1116|IDataOfstream|class|com.Hileb.ofstream.ofstream.IDataOfstream|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1098|1102|List|class|java.util.List|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1083|1090|HashMap|class|java.util.HashMap|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1083|1090|HashMap|class|java.util.HashMap|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1091|1097|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1098|1102|List|class|java.util.List|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1103|1116|IDataOfstream|class|com.Hileb.ofstream.ofstream.IDataOfstream|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1119|1123|MODS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|MODS|
+   @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1128|1135|HashMap|class|java.util.HashMap|false
+   Method Start: onEventRegister(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$Register;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1229|1234|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventRegister|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$Register;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1151|1165|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1190|1205|onEventRegister|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventRegister|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$Register;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1206|1228|OfstreamEvent.Register|class|com.Hileb.ofstream.ofstream.OfstreamEvent.Register|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1246|1250|init|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|init|()V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1263|1268|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventRegister|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$Register;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1269|1277|register|method|com.Hileb.ofstream.ofstream.OfstreamEvent.Register|register|(Lcom/Hileb/ofstream/ofstream/OfstreamRegisterObject;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1282|1304|OfstreamRegisterObject|class|com.Hileb.ofstream.ofstream.OfstreamRegisterObject|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1305|1309|MODS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|MODS
+   Method End: onEventRegister(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$Register;)V
+   Method Start: onEventEnUs(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$EnUs;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1410|1415|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventEnUs|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$EnUs;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1340|1354|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1379|1390|onEventEnUs|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventEnUs|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$EnUs;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1391|1409|OfstreamEvent.EnUs|class|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1432|1447|DataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1465|1487|AdvancementDataManager|class|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1488|1500|ADVANCEMENTS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|ADVANCEMENTS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1532|1546|setEnglishName|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1547|1554|getText|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1571|1582|advancement|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|advancement
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1583|1593|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1596|1604|getTitle|method|net.minecraft.advancements.DisplayInfo|getTitle|()Lnet/minecraft/util/text/ITextComponent;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1607|1612|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventEnUs|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$EnUs;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1613|1620|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1655|1669|setEnglishDesc|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishDesc|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1670|1677|getText|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1694|1705|advancement|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|advancement
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1706|1716|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1719|1733|getDescription|method|net.minecraft.advancements.DisplayInfo|getDescription|()Lnet/minecraft/util/text/ITextComponent;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1736|1741|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventEnUs|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$EnUs;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1742|1749|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
+   Method End: onEventEnUs(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$EnUs;)V
+   Method Start: onEventZhCn(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$ZhCn;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1849|1854|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventZhCn|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$ZhCn;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1779|1793|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1818|1829|onEventZhCn|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventZhCn|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$ZhCn;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1830|1848|OfstreamEvent.ZhCn|class|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1871|1886|DataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1904|1926|AdvancementDataManager|class|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1927|1939|ADVANCEMENTS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|ADVANCEMENTS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1971|1985|setChineseName|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|1986|1993|getText|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2010|2021|advancement|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|advancement
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2022|2032|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2035|2043|getTitle|method|net.minecraft.advancements.DisplayInfo|getTitle|()Lnet/minecraft/util/text/ITextComponent;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2046|2051|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventZhCn|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$ZhCn;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2052|2059|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2094|2108|setChineseDesc|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseDesc|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2109|2116|getText|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2133|2144|advancement|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|advancement
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2145|2155|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2158|2172|getDescription|method|net.minecraft.advancements.DisplayInfo|getDescription|()Lnet/minecraft/util/text/ITextComponent;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2175|2180|event|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|onEventZhCn|(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$ZhCn;)V|event|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2181|2188|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
+   Method End: onEventZhCn(Lcom/Hileb/ofstream/ofstream/OfstreamEvent$ZhCn;)V
+   Method Start: getText(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2261|2270|component|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;|component|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2310|2314|i18n|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;|i18n|1
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2231|2237|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2238|2245|getText|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2246|2260|ITextComponent|class|net.minecraft.util.text.ITextComponent|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2272|2309|com.Hileb.ofstream.ofstream.lang.I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2330|2339|component|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;|component|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2351|2370|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2386|2405|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2418|2437|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2439|2448|component|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;|component|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2481|2488|getText|method|net.minecraft.util.text.TextComponentString|getText|()Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2521|2530|component|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;|component|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2542|2566|TextComponentTranslation|class|net.minecraft.util.text.TextComponentTranslation|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2582|2606|TextComponentTranslation|class|net.minecraft.util.text.TextComponentTranslation|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2623|2647|TextComponentTranslation|class|net.minecraft.util.text.TextComponentTranslation|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2649|2658|component|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;|component|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2680|2684|i18n|param|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|getText|(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;|i18n|1
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2685|2691|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2707|2713|getKey|method|net.minecraft.util.text.TextComponentTranslation|getKey|()Ljava/lang/String;
+   Method End: getText(Lnet/minecraft/util/text/ITextComponent;Lcom/Hileb/ofstream/ofstream/lang/I18n;)Ljava/lang/String;
+   Method Start: init()V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2789|2793|init|method|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|init|()V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2806|2818|ADVANCEMENTS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|ADVANCEMENTS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2819|2824|clear|method|java.util.Collection|clear|()V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2837|2841|MODS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|MODS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2842|2847|clear|method|java.util.Map|clear|()V
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2864|2879|AdvancementList|class|net.minecraft.advancements.AdvancementList|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2896|2905|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2906|2918|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2921|2927|player|field|net.minecraft.client.Minecraft|player
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2928|2938|connection|field|net.minecraft.client.entity.EntityPlayerSP|connection
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2939|2960|getAdvancementManager|method|net.minecraft.client.network.NetHandlerPlayClient|getAdvancementManager|()Lnet/minecraft/client/multiplayer/ClientAdvancementManager;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2963|2981|getAdvancementList|method|net.minecraft.client.multiplayer.ClientAdvancementManager|getAdvancementList|()Lnet/minecraft/advancements/AdvancementList;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|2996|3006|Collection|class|java.util.Collection|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3007|3018|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3034|3044|Collection|class|java.util.Collection|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3045|3056|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3074|3089|getAdvancements|method|net.minecraft.advancements.AdvancementList|getAdvancements|()Ljava/lang/Iterable;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3106|3117|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3172|3182|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3209|3219|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3222|3229|getIcon|method|net.minecraft.advancements.DisplayInfo|getIcon|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3232|3239|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3261|3276|DataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3297|3312|DataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3326|3338|ADVANCEMENTS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|ADVANCEMENTS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3339|3342|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3383|3387|MODS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|MODS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3388|3399|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3416|3444|registerNameResourceLocation|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerNameResourceLocation
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3445|3462|getResourceDomain|method|net.minecraft.util.ResourceLocation|getResourceDomain|()Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3489|3493|MODS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|MODS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3494|3497|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3514|3542|registerNameResourceLocation|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerNameResourceLocation
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3543|3560|getResourceDomain|method|net.minecraft.util.ResourceLocation|getResourceDomain|()Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3567|3576|ArrayList|class|java.util.ArrayList|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3619|3623|MODS|field|com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager|MODS
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3624|3627|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3644|3672|registerNameResourceLocation|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerNameResourceLocation
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3673|3690|getResourceDomain|method|net.minecraft.util.ResourceLocation|getResourceDomain|()Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java|3694|3697|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: init()V
+Class End  : com.Hileb.ofstream_advancement.AdvancementData.AdvancementDataManager
+endProcessing "com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java"
+
+startProcessing "com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java" md5: 7e910602fa096c20dee30b5f198ec2bf
+@|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|9|55|com.Hileb.ofstream_advancement.AdvancementData|package|com.Hileb.ofstream_advancement.AdvancementData|(file)
+Class Start: com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|266|281|DataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|293|306|IDataOfstream|class|com.Hileb.ofstream.ofstream.IDataOfstream|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|336|347|Advancement|class|net.minecraft.advancements.Advancement|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|336|347|Advancement|class|net.minecraft.advancements.Advancement|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|348|359|advancement|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|advancement|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|373|379|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|373|379|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|380|391|chineseName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseName|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|404|410|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|404|410|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|411|422|englishName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishName|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|436|442|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|436|442|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|443|454|chineseDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseDesc|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|467|473|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|467|473|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|474|485|englishDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishDesc|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|514|530|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|514|530|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|531|559|registerNameResourceLocation|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerNameResourceLocation|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|578|584|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|578|584|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|585|597|registerName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerName|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|616|622|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|616|622|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|623|629|parent|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|parent|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|649|655|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|649|655|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|656|665|smallIcon|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|smallIcon|
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|684|690|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|684|690|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|691|700|largeIcon|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|largeIcon|
+   Method Start: DataAdvancement(Lnet/minecraft/advancements/Advancement;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|741|754|advancementIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V|advancementIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|713|728|DataAdvancement|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|729|740|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|765|776|advancement|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|advancement
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|777|790|advancementIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V|advancementIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|866|875|smallIcon|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|smallIcon
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|878|889|ExportUtils|class|com.Hileb.ofstream.ofstream.irr.ExportUtils|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|890|898|INSTANCE|field|com.Hileb.ofstream.ofstream.irr.ExportUtils|INSTANCE
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|899|911|getSmallIcon|method|com.Hileb.ofstream.ofstream.irr.ExportUtils|getSmallIcon|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|912|925|advancementIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V|advancementIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|926|936|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|939|946|getIcon|method|net.minecraft.advancements.DisplayInfo|getIcon|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|959|968|largeIcon|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|largeIcon
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|971|982|ExportUtils|class|com.Hileb.ofstream.ofstream.irr.ExportUtils|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|983|991|INSTANCE|field|com.Hileb.ofstream.ofstream.irr.ExportUtils|INSTANCE
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|992|1004|getLargeIcon|method|com.Hileb.ofstream.ofstream.irr.ExportUtils|getLargeIcon|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1005|1018|advancementIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V|advancementIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1019|1029|getDisplay|method|net.minecraft.advancements.Advancement|getDisplay|()Lnet/minecraft/advancements/DisplayInfo;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1032|1039|getIcon|method|net.minecraft.advancements.DisplayInfo|getIcon|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1052|1080|registerNameResourceLocation|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerNameResourceLocation
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1081|1094|advancementIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V|advancementIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1095|1100|getId|method|net.minecraft.advancements.Advancement|getId|()Lnet/minecraft/util/ResourceLocation;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1116|1129|advancementIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V|advancementIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1130|1139|getParent|method|net.minecraft.advancements.Advancement|getParent|()Lnet/minecraft/advancements/Advancement;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1162|1168|parent|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|parent
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1169|1182|advancementIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|DataAdvancement|(Lnet/minecraft/advancements/Advancement;)V|advancementIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1183|1192|getParent|method|net.minecraft.advancements.Advancement|getParent|()Lnet/minecraft/advancements/Advancement;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1195|1200|getId|method|net.minecraft.advancements.Advancement|getId|()Lnet/minecraft/util/ResourceLocation;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1203|1211|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1238|1244|parent|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|parent
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1258|1270|registerName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1271|1299|registerNameResourceLocation|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerNameResourceLocation
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1300|1308|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+   Method End: DataAdvancement(Lnet/minecraft/advancements/Advancement;)V
+   Method Start: returnObj()Ljava/lang/Object;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1325|1333|Override|class|java.lang.Override|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1345|1351|Object|class|java.lang.Object|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1352|1361|returnObj|method|com.Hileb.ofstream.ofstream.IDataOfstream|returnObj|()Ljava/lang/Object;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1385|1408|OfstreamDataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1426|1437|chineseName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1455|1466|englishName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1484|1495|chineseDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1513|1524|englishDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1542|1554|registerName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|registerName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1572|1578|parent|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|parent
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1596|1605|smallIcon|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|smallIcon
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1623|1632|largeIcon|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|largeIcon
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1650|1661|advancement|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|advancement
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1662|1672|getRewards|method|net.minecraft.advancements.Advancement|getRewards|()Lnet/minecraft/advancements/AdvancementRewards;
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1675|1683|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+   Method End: returnObj()Ljava/lang/Object;
+   Method Start: setChineseName(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1742|1755|chineseNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseName|(Ljava/lang/String;)V|chineseNameIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1720|1734|setChineseName|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1735|1741|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1776|1787|chineseName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1799|1810|chineseName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1813|1826|chineseNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseName|(Ljava/lang/String;)V|chineseNameIn|0
+   Method End: setChineseName(Ljava/lang/String;)V
+   Method Start: setEnglishName(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1872|1885|englishNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishName|(Ljava/lang/String;)V|englishNameIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1850|1864|setEnglishName|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishName|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1865|1871|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1906|1917|englishName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1930|1941|englishName|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishName
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1944|1957|englishNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishName|(Ljava/lang/String;)V|englishNameIn|0
+   Method End: setEnglishName(Ljava/lang/String;)V
+   Method Start: setChineseDesc(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2004|2017|chineseDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseDesc|(Ljava/lang/String;)V|chineseDescIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1982|1996|setChineseDesc|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseDesc|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|1997|2003|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2038|2049|chineseDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2061|2072|chineseDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|chineseDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2075|2088|chineseDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setChineseDesc|(Ljava/lang/String;)V|chineseDescIn|0
+   Method End: setChineseDesc(Ljava/lang/String;)V
+   Method Start: setEnglishDesc(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2134|2147|englishDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishDesc|(Ljava/lang/String;)V|englishDescIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2112|2126|setEnglishDesc|method|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishDesc|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2127|2133|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2168|2179|englishDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2192|2203|englishDesc|field|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|englishDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java|2206|2219|englishDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement|setEnglishDesc|(Ljava/lang/String;)V|englishDescIn|0
+   Method End: setEnglishDesc(Ljava/lang/String;)V
+Class End  : com.Hileb.ofstream_advancement.AdvancementData.DataAdvancement
+endProcessing "com/Hileb/ofstream_advancement/AdvancementData/DataAdvancement.java"
+
+startProcessing "com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java" md5: ac983386d0fcae34a44e8b2aa9c6e19c
+@|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|8|54|com.Hileb.ofstream_advancement.AdvancementData|package|com.Hileb.ofstream_advancement.AdvancementData|(file)
+Class Start: com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|72|95|OfstreamDataAdvancement|class|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|116|122|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|116|122|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|123|134|chineseName|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|chineseName|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|154|160|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|154|160|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|161|172|englishName|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|englishName|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|194|200|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|194|200|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|201|212|chineseDesc|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|chineseDesc|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|232|238|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|232|238|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|239|250|englishDesc|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|englishDesc|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|270|276|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|270|276|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|277|289|registerName|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|registerName|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|309|315|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|309|315|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|316|322|parent|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|parent|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|344|350|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|344|350|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|351|360|smallIcon|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|smallIcon|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|380|386|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|380|386|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|387|396|largeIcon|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|largeIcon|
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|416|422|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|416|422|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|423|430|rewards|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|rewards|
+   Method Start: OfstreamDataAdvancement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|489|502|chineseNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|chineseNameIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|516|529|englishNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|englishNameIn|1
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|546|559|chineseDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|chineseDescIn|2
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|574|587|englishDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|englishDescIn|3
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|601|615|registerNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|registerNameIn|4
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|629|637|parentIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|parentIn|5
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|652|663|smallIconIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|smallIconIn|6
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|676|687|largeIconIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|largeIconIn|7
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|709|718|rewardsIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|rewardsIn|8
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|444|467|OfstreamDataAdvancement|method|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|482|488|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|509|515|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|539|545|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|567|573|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|594|600|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|622|628|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|645|651|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|669|675|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|702|708|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|738|749|chineseName|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|chineseName
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|750|763|chineseNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|chineseNameIn|0
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|774|785|englishName|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|englishName
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|786|799|englishNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|englishNameIn|1
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|812|823|chineseDesc|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|chineseDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|824|837|chineseDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|chineseDescIn|2
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|848|859|englishDesc|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|englishDesc
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|860|873|englishDescIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|englishDescIn|3
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|884|896|registerName|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|registerName
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|898|912|registerNameIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|registerNameIn|4
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|923|929|parent|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|parent
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|930|938|parentIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|parentIn|5
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|951|960|smallIcon|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|smallIcon
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|961|972|smallIconIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|smallIconIn|6
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|983|992|largeIcon|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|largeIcon
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|993|1004|largeIconIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|largeIconIn|7
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|1015|1022|rewards|field|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|rewards
+      @|com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java|1023|1032|rewardsIn|param|com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement|OfstreamDataAdvancement|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|rewardsIn|8
+   Method End: OfstreamDataAdvancement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+Class End  : com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement
+endProcessing "com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java"
+
+startProcessing "com/Hileb/ofstream_advancement/IdlFramework.java" md5: 4a765ed153989614e1f5ec6693d99f27
+@|com/Hileb/ofstream_advancement/IdlFramework.java|8|38|com.Hileb.ofstream_advancement|package|com.Hileb.ofstream_advancement|(file)
+Class Start: com.Hileb.ofstream_advancement.IdlFramework
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|622|625|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|626|631|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|634|646|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|647|652|MODID|field|com.Hileb.ofstream_advancement.IdlFramework|MODID
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|654|658|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|661|673|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|674|678|NAME|field|com.Hileb.ofstream_advancement.IdlFramework|NAME
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|680|687|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|690|702|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|703|710|VERSION|field|com.Hileb.ofstream_advancement.IdlFramework|VERSION
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|726|738|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|766|772|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|766|772|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|773|778|MODID|field|com.Hileb.ofstream_advancement.IdlFramework|MODID|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|830|836|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|830|836|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|837|841|NAME|field|com.Hileb.ofstream_advancement.IdlFramework|NAME|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|893|899|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|893|899|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|900|907|VERSION|field|com.Hileb.ofstream_advancement.IdlFramework|VERSION|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|942|948|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|942|948|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|949|955|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|992|1001|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1050|1062|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1018|1030|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1050|1062|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1063|1071|instance|field|com.Hileb.ofstream_advancement.IdlFramework|instance|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1175|1184|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1081|1091|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1092|1102|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1105|1116|ClientProxy|class|com.Hileb.ofstream_advancement.proxy.ClientProxy|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1117|1122|PROXY|field|com.Hileb.ofstream_advancement.proxy.ClientProxy|PROXY
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1124|1134|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1137|1148|ServerProxy|class|com.Hileb.ofstream_advancement.proxy.ServerProxy|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1149|1154|PROXY|field|com.Hileb.ofstream_advancement.proxy.ServerProxy|PROXY
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1175|1184|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1185|1190|proxy|field|com.Hileb.ofstream_advancement.IdlFramework|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1264|1269|event|param|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1200|1212|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1230|1237|preInit|method|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1238|1263|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1282|1288|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1291|1296|event|param|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1297|1306|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: onServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1399|1404|event|param|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1329|1341|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1359|1375|onServerStarting|method|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1376|1398|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1417|1422|event|param|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1423|1444|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1449|1473|CommandReloadAdvancement|class|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|false
+   Method End: onServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+   Method Start: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1533|1536|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1548|1552|args|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1515|1525|LogWarning|method|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1526|1532|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1538|1544|Object|class|java.lang.Object|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1569|1578|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1595|1601|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1602|1606|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1607|1613|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1614|1620|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1621|1624|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1626|1630|args|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+   Method End: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
+   Method Start: LogWarning(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1696|1699|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1678|1688|LogWarning|method|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1689|1695|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1716|1725|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1742|1748|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1749|1753|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1754|1757|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
+   Method End: LogWarning(Ljava/lang/String;)V
+   Method Start: Log(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1815|1818|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1804|1807|Log|method|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1808|1814|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1831|1837|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1838|1842|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1843|1846|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V|str|0
+   Method End: Log(Ljava/lang/String;)V
+   Method Start: Log(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1893|1896|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1908|1912|args|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1882|1885|Log|method|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1886|1892|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1898|1904|Object|class|java.lang.Object|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1925|1931|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1932|1936|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1937|1943|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1944|1950|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1951|1954|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1956|1960|args|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+   Method End: Log(Ljava/lang/String;[Ljava/lang/Object;)V
+Class End  : com.Hileb.ofstream_advancement.IdlFramework
+endProcessing "com/Hileb/ofstream_advancement/IdlFramework.java"
+
+startProcessing "com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java" md5: 57daa657d66fc18c84269b3c00737e59
+@|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|8|46|com.Hileb.ofstream_advancement.command|package|com.Hileb.ofstream_advancement.command|(file)
+Class Start: com.Hileb.ofstream_advancement.command.CommandReloadAdvancement
+   @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|439|463|CommandReloadAdvancement|class|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|false
+   @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|472|483|CommandBase|class|net.minecraft.command.CommandBase|false
+   Method Start: getName()Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|492|500|Override|class|java.lang.Override|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|513|519|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|520|527|getName|method|net.minecraft.command.ICommand|getName|()Ljava/lang/String;
+   Method End: getName()Ljava/lang/String;
+   Method Start: getUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|636|642|sender|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|getUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|584|592|Override|class|java.lang.Override|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|605|611|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|612|620|getUsage|method|net.minecraft.command.ICommand|getUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|621|635|ICommandSender|class|net.minecraft.command.ICommandSender|false
+   Method End: getUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: execute(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|735|741|server|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|server|0
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|758|764|sender|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|1
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|775|779|args|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|2
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|685|693|Override|class|java.lang.Override|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|711|718|execute|method|net.minecraft.command.ICommand|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|719|734|MinecraftServer|class|net.minecraft.server.MinecraftServer|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|743|757|ICommandSender|class|net.minecraft.command.ICommandSender|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|766|772|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|788|804|CommandException|class|net.minecraft.command.CommandException|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|820|826|sender|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|1
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|838|852|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|868|882|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|892|906|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|907|913|sender|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|execute|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|1
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|930|940|Collection|class|java.util.Collection|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|941|952|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|968|978|Collection|class|java.util.Collection|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|979|990|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|999|1013|getServerWorld|method|net.minecraft.entity.player.EntityPlayerMP|getServerWorld|()Lnet/minecraft/world/WorldServer;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1016|1037|getAdvancementManager|method|net.minecraft.world.WorldServer|getAdvancementManager|()Lnet/minecraft/advancements/AdvancementManager;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1040|1055|getAdvancements|method|net.minecraft.advancements.AdvancementManager|getAdvancements|()Ljava/lang/Iterable;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1077|1088|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1133|1148|giveAdvancement|method|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1220|1236|CommandException|class|net.minecraft.command.CommandException|false
+   Method End: execute(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1323|1331|Override|class|java.lang.Override|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1348|1374|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: giveAdvancement(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1465|1473|playerMP|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|playerMP|0
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1487|1498|advancement|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|advancement|1
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1434|1449|giveAdvancement|method|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1450|1464|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1475|1486|Advancement|class|net.minecraft.advancements.Advancement|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1520|1528|playerMP|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|playerMP|0
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1538|1549|advancement|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|advancement|1
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1605|1624|AdvancementProgress|class|net.minecraft.advancements.AdvancementProgress|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1647|1655|playerMP|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|playerMP|0
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1656|1671|getAdvancements|method|net.minecraft.entity.player.EntityPlayerMP|getAdvancements|()Lnet/minecraft/advancements/PlayerAdvancements;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1674|1685|getProgress|method|net.minecraft.advancements.PlayerAdvancements|getProgress|(Lnet/minecraft/advancements/Advancement;)Lnet/minecraft/advancements/AdvancementProgress;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1686|1697|advancement|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|advancement|1
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1735|1741|isDone|method|net.minecraft.advancements.AdvancementProgress|isDone|()Z
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1837|1843|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1868|1887|getRemaningCriteria|method|net.minecraft.advancements.AdvancementProgress|getRemaningCriteria|()Ljava/lang/Iterable;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1923|1931|playerMP|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|playerMP|0
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1932|1947|getAdvancements|method|net.minecraft.entity.player.EntityPlayerMP|getAdvancements|()Lnet/minecraft/advancements/PlayerAdvancements;
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1950|1964|grantCriterion|method|net.minecraft.advancements.PlayerAdvancements|grantCriterion|(Lnet/minecraft/advancements/Advancement;Ljava/lang/String;)Z
+      @|com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java|1965|1976|advancement|param|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|giveAdvancement|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z|advancement|1
+   Method End: giveAdvancement(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/advancements/Advancement;)Z
+Class End  : com.Hileb.ofstream_advancement.command.CommandReloadAdvancement
+endProcessing "com/Hileb/ofstream_advancement/command/CommandReloadAdvancement.java"
+
+startProcessing "com/Hileb/ofstream_advancement/proxy/ClientProxy.java" md5: b6e39dfe391fa5479efe4e9615e74713
+@|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|8|44|com.Hileb.ofstream_advancement.proxy|package|com.Hileb.ofstream_advancement.proxy|(file)
+Class Start: com.Hileb.ofstream_advancement.proxy.ClientProxy
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|328|339|ClientProxy|class|com.Hileb.ofstream_advancement.proxy.ClientProxy|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|348|357|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|390|400|KeyBinding|class|net.minecraft.client.settings.KeyBinding|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|385|389|List|class|java.util.List|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|385|389|List|class|java.util.List|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|390|400|KeyBinding|class|net.minecraft.client.settings.KeyBinding|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|402|414|KEY_BINDINGS|field|com.Hileb.ofstream_advancement.proxy.ClientProxy|KEY_BINDINGS|
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|421|430|ArrayList|class|java.util.ArrayList|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|431|441|KeyBinding|class|net.minecraft.client.settings.KeyBinding|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|856|862|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|856|862|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|863|868|PROXY|field|com.Hileb.ofstream_advancement.proxy.ClientProxy|PROXY|
+   Method Start: isServer()Z
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|938|946|isServer|method|com.Hileb.ofstream_advancement.proxy.ProxyBase|isServer|()Z
+   Method End: isServer()Z
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1016|1020|item|param|com.Hileb.ofstream_advancement.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1026|1030|meta|param|com.Hileb.ofstream_advancement.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1039|1041|id|param|com.Hileb.ofstream_advancement.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|990|1010|registerItemRenderer|method|com.Hileb.ofstream_advancement.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1011|1015|Item|class|net.minecraft.item.Item|false
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1032|1038|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1050|1061|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1062|1092|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1093|1097|item|param|com.Hileb.ofstream_advancement.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1099|1103|meta|param|com.Hileb.ofstream_advancement.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1109|1130|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1131|1135|item|param|com.Hileb.ofstream_advancement.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1136|1151|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com/Hileb/ofstream_advancement/proxy/ClientProxy.java|1155|1157|id|param|com.Hileb.ofstream_advancement.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.Hileb.ofstream_advancement.proxy.ClientProxy
+endProcessing "com/Hileb/ofstream_advancement/proxy/ClientProxy.java"
+
+startProcessing "com/Hileb/ofstream_advancement/proxy/ProxyBase.java" md5: b1a682381ce094586596f95a9feddbba
+@|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|8|44|com.Hileb.ofstream_advancement.proxy|package|com.Hileb.ofstream_advancement.proxy|(file)
+Class Start: com.Hileb.ofstream_advancement.proxy.ProxyBase
+   @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|97|106|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
+   Method Start: isServer()Z
+      @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|126|134|isServer|method|com.Hileb.ofstream_advancement.proxy.ProxyBase|isServer|()Z
+   Method End: isServer()Z
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|204|208|item|param|com.Hileb.ofstream_advancement.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|214|218|meta|param|com.Hileb.ofstream_advancement.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|227|229|id|param|com.Hileb.ofstream_advancement.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|178|198|registerItemRenderer|method|com.Hileb.ofstream_advancement.proxy.ProxyBase|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|199|203|Item|class|net.minecraft.item.Item|false
+      @|com/Hileb/ofstream_advancement/proxy/ProxyBase.java|220|226|String|class|java.lang.String|false
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.Hileb.ofstream_advancement.proxy.ProxyBase
+endProcessing "com/Hileb/ofstream_advancement/proxy/ProxyBase.java"
+
+startProcessing "com/Hileb/ofstream_advancement/proxy/ServerProxy.java" md5: 48bf8838f3e0258004e444ee82722add
+@|com/Hileb/ofstream_advancement/proxy/ServerProxy.java|8|44|com.Hileb.ofstream_advancement.proxy|package|com.Hileb.ofstream_advancement.proxy|(file)
+Class Start: com.Hileb.ofstream_advancement.proxy.ServerProxy
+   @|com/Hileb/ofstream_advancement/proxy/ServerProxy.java|62|73|ServerProxy|class|com.Hileb.ofstream_advancement.proxy.ServerProxy|false
+   @|com/Hileb/ofstream_advancement/proxy/ServerProxy.java|82|91|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
+   @|com/Hileb/ofstream_advancement/proxy/ServerProxy.java|119|125|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/proxy/ServerProxy.java|119|125|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/proxy/ServerProxy.java|126|131|PROXY|field|com.Hileb.ofstream_advancement.proxy.ServerProxy|PROXY|
+   Method Start: isServer()Z
+      @|com/Hileb/ofstream_advancement/proxy/ServerProxy.java|204|212|isServer|method|com.Hileb.ofstream_advancement.proxy.ProxyBase|isServer|()Z
+   Method End: isServer()Z
+Class End  : com.Hileb.ofstream_advancement.proxy.ServerProxy
+endProcessing "com/Hileb/ofstream_advancement/proxy/ServerProxy.java"
+
