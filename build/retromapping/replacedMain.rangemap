@@ -1,5 +1,5 @@
-Unsupposrted library path: E:\project\MC MOD\OfstreamA\AdvancedWarning\IdeallandFramework-master\AdvancedWarning\build\classes\java\api
-Unsupposrted library path: E:\project\MC MOD\OfstreamA\AdvancedWarning\IdeallandFramework-master\AdvancedWarning\build\resources\api
+Unsupposrted library path: E:\project\MC MOD\UnusuallyProjectPack\Ofstream\OfstreamAdvancement\IdeallandFramework-master\AdvancedWarning\OfstreamAdvancement\build\classes\java\api
+Unsupposrted library path: E:\project\MC MOD\UnusuallyProjectPack\Ofstream\OfstreamAdvancement\IdeallandFramework-master\AdvancedWarning\OfstreamAdvancement\build\resources\api
 Symbol range map extraction starting
 Processing 8 files
 startProcessing "com/Hileb/ofstream_advancement/AdvancementData/AdvancementDataManager.java" md5: ac41dda2dc3d0148dbd3bdfba5a91c08
@@ -351,7 +351,7 @@ Class Start: com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancem
 Class End  : com.Hileb.ofstream_advancement.AdvancementData.OfstreamDataAdvancement
 endProcessing "com/Hileb/ofstream_advancement/AdvancementData/OfstreamDataAdvancement.java"
 
-startProcessing "com/Hileb/ofstream_advancement/IdlFramework.java" md5: 4a765ed153989614e1f5ec6693d99f27
+startProcessing "com/Hileb/ofstream_advancement/IdlFramework.java" md5: b222a28b7f9d98919a73f1bb5a57b616
 @|com/Hileb/ofstream_advancement/IdlFramework.java|8|38|com.Hileb.ofstream_advancement|package|com.Hileb.ofstream_advancement|(file)
 Class Start: com.Hileb.ofstream_advancement.IdlFramework
    @|com/Hileb/ofstream_advancement/IdlFramework.java|622|625|Mod|class|net.minecraftforge.fml.common.Mod|false
@@ -364,95 +364,96 @@ Class Start: com.Hileb.ofstream_advancement.IdlFramework
    @|com/Hileb/ofstream_advancement/IdlFramework.java|680|687|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
    @|com/Hileb/ofstream_advancement/IdlFramework.java|690|702|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
    @|com/Hileb/ofstream_advancement/IdlFramework.java|703|710|VERSION|field|com.Hileb.ofstream_advancement.IdlFramework|VERSION
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|726|738|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|766|772|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|766|772|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|773|778|MODID|field|com.Hileb.ofstream_advancement.IdlFramework|MODID|
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|830|836|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|830|836|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|837|841|NAME|field|com.Hileb.ofstream_advancement.IdlFramework|NAME|
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|893|899|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|893|899|String|class|java.lang.String|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|900|907|VERSION|field|com.Hileb.ofstream_advancement.IdlFramework|VERSION|
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|942|948|Logger|class|org.apache.logging.log4j.Logger|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|942|948|Logger|class|org.apache.logging.log4j.Logger|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|949|955|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger|
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|992|1001|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN|
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1050|1062|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1018|1030|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1050|1062|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1063|1071|instance|field|com.Hileb.ofstream_advancement.IdlFramework|instance|
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1175|1184|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1081|1091|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1092|1102|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1105|1116|ClientProxy|class|com.Hileb.ofstream_advancement.proxy.ClientProxy|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1117|1122|PROXY|field|com.Hileb.ofstream_advancement.proxy.ClientProxy|PROXY
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1124|1134|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1137|1148|ServerProxy|class|com.Hileb.ofstream_advancement.proxy.ServerProxy|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1149|1154|PROXY|field|com.Hileb.ofstream_advancement.proxy.ServerProxy|PROXY
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1175|1184|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
-   @|com/Hileb/ofstream_advancement/IdlFramework.java|1185|1190|proxy|field|com.Hileb.ofstream_advancement.IdlFramework|proxy|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|711|723|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|769|781|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|809|815|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|809|815|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|816|821|MODID|field|com.Hileb.ofstream_advancement.IdlFramework|MODID|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|873|879|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|873|879|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|880|884|NAME|field|com.Hileb.ofstream_advancement.IdlFramework|NAME|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|936|942|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|936|942|String|class|java.lang.String|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|943|950|VERSION|field|com.Hileb.ofstream_advancement.IdlFramework|VERSION|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|985|991|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|985|991|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|992|998|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1035|1044|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1093|1105|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1061|1073|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1093|1105|IdlFramework|class|com.Hileb.ofstream_advancement.IdlFramework|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1106|1114|instance|field|com.Hileb.ofstream_advancement.IdlFramework|instance|
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1218|1227|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1124|1134|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1135|1145|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1148|1159|ClientProxy|class|com.Hileb.ofstream_advancement.proxy.ClientProxy|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1160|1165|PROXY|field|com.Hileb.ofstream_advancement.proxy.ClientProxy|PROXY
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1167|1177|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1180|1191|ServerProxy|class|com.Hileb.ofstream_advancement.proxy.ServerProxy|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1192|1197|PROXY|field|com.Hileb.ofstream_advancement.proxy.ServerProxy|PROXY
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1218|1227|ProxyBase|class|com.Hileb.ofstream_advancement.proxy.ProxyBase|false
+   @|com/Hileb/ofstream_advancement/IdlFramework.java|1228|1233|proxy|field|com.Hileb.ofstream_advancement.IdlFramework|proxy|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1264|1269|event|param|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1200|1212|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1230|1237|preInit|method|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1238|1263|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1282|1288|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1291|1296|event|param|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1297|1306|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1307|1312|event|param|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1243|1255|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1273|1280|preInit|method|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1281|1306|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1325|1331|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1334|1339|event|param|com.Hileb.ofstream_advancement.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1340|1349|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: onServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1399|1404|event|param|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1329|1341|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1359|1375|onServerStarting|method|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1376|1398|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1417|1422|event|param|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1423|1444|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1449|1473|CommandReloadAdvancement|class|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1442|1447|event|param|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1372|1384|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1402|1418|onServerStarting|method|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1419|1441|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1460|1465|event|param|com.Hileb.ofstream_advancement.IdlFramework|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1466|1487|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1492|1516|CommandReloadAdvancement|class|com.Hileb.ofstream_advancement.command.CommandReloadAdvancement|false
    Method End: onServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
    Method Start: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1533|1536|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1548|1552|args|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1515|1525|LogWarning|method|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1526|1532|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1538|1544|Object|class|java.lang.Object|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1569|1578|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1595|1601|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1602|1606|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1607|1613|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1614|1620|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1621|1624|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1626|1630|args|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1576|1579|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1591|1595|args|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1558|1568|LogWarning|method|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1569|1575|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1581|1587|Object|class|java.lang.Object|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1612|1621|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1638|1644|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1645|1649|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1650|1656|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1657|1663|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1664|1667|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1669|1673|args|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
    Method End: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
    Method Start: LogWarning(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1696|1699|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1678|1688|LogWarning|method|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1689|1695|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1716|1725|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1742|1748|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1749|1753|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1754|1757|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1739|1742|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1721|1731|LogWarning|method|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1732|1738|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1759|1768|SHOW_WARN|field|com.Hileb.ofstream_advancement.IdlFramework|SHOW_WARN
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1785|1791|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1792|1796|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1797|1800|str|param|com.Hileb.ofstream_advancement.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
    Method End: LogWarning(Ljava/lang/String;)V
    Method Start: Log(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1815|1818|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V|str|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1804|1807|Log|method|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1808|1814|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1831|1837|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1838|1842|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1843|1846|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1858|1861|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1847|1850|Log|method|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1851|1857|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1874|1880|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1881|1885|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1886|1889|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;)V|str|0
    Method End: Log(Ljava/lang/String;)V
    Method Start: Log(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1893|1896|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1908|1912|args|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1882|1885|Log|method|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1886|1892|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1898|1904|Object|class|java.lang.Object|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1925|1931|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1932|1936|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1937|1943|String|class|java.lang.String|false
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1944|1950|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1951|1954|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/ofstream_advancement/IdlFramework.java|1956|1960|args|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1936|1939|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1951|1955|args|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1925|1928|Log|method|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1929|1935|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1941|1947|Object|class|java.lang.Object|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1968|1974|logger|field|com.Hileb.ofstream_advancement.IdlFramework|logger
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1975|1979|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1980|1986|String|class|java.lang.String|false
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1987|1993|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1994|1997|str|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/ofstream_advancement/IdlFramework.java|1999|2003|args|param|com.Hileb.ofstream_advancement.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
    Method End: Log(Ljava/lang/String;[Ljava/lang/Object;)V
 Class End  : com.Hileb.ofstream_advancement.IdlFramework
 endProcessing "com/Hileb/ofstream_advancement/IdlFramework.java"
