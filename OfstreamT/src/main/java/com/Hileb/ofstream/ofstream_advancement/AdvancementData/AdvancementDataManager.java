@@ -31,11 +31,11 @@ public class AdvancementDataManager {
                 if (advancement.getDisplay() != null && !advancement.getDisplay().getIcon().isEmpty()) {
                     DataAdvancement dataAdvancement = new DataAdvancement(advancement);
                     I18n zh_cn=LangHelper.getI18n(LangHelper.ZH_CN);
-                    I18n en_us=LangHelper.getI18n(LangHelper.ZH_CN);
-                    dataAdvancement.setChineseName(zh_cn.format(getKey(dataAdvancement.advancement.getDisplay().getTitle())));
-                    dataAdvancement.setChineseDesc(zh_cn.format(getKey(dataAdvancement.advancement.getDisplay().getDescription())));
-                    dataAdvancement.setEnglishName(en_us.format(getKey(dataAdvancement.advancement.getDisplay().getTitle())));
-                    dataAdvancement.setEnglishDesc(en_us.format(getKey(dataAdvancement.advancement.getDisplay().getDescription())));
+                    I18n en_us=LangHelper.getI18n(LangHelper.EN_US);
+                    dataAdvancement.setChineseName(zh_cn.format(LangHelper.getTranslateKey(dataAdvancement.advancement.getDisplay().getTitle())));
+                    dataAdvancement.setChineseDesc(zh_cn.format(LangHelper.getTranslateKey(dataAdvancement.advancement.getDisplay().getDescription())));
+                    dataAdvancement.setEnglishName(en_us.format(LangHelper.getTranslateKey(dataAdvancement.advancement.getDisplay().getTitle())));
+                    dataAdvancement.setEnglishDesc(en_us.format(LangHelper.getTranslateKey(dataAdvancement.advancement.getDisplay().getDescription())));
                     ADVANCEMENT.register(dataAdvancement.registerNameResourceLocation.getNamespace(),dataAdvancement);
                 }
             }
@@ -54,9 +54,4 @@ public class AdvancementDataManager {
         event.register(ADVANCEMENT.getRegisterObject());
     }
 
-    public static String getKey(ITextComponent textComponent){
-        if (textComponent instanceof TranslationTextComponent){
-            return ((TranslationTextComponent)textComponent).getKey();
-        }else return textComponent.getUnformattedComponentText();
-    }
 }
