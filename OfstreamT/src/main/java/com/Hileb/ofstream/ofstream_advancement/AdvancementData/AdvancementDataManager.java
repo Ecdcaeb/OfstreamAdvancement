@@ -7,6 +7,8 @@ import com.Hileb.ofstream.ofstream.lang.I18n;
 import com.Hileb.ofstream.ofstream.lang.LangHelper;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.client.Minecraft;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -30,10 +32,10 @@ public class AdvancementDataManager {
                     DataAdvancement dataAdvancement = new DataAdvancement(advancement);
                     I18n zh_cn=LangHelper.getI18n(LangHelper.ZH_CN);
                     I18n en_us=LangHelper.getI18n(LangHelper.ZH_CN);
-                    dataAdvancement.setChineseName(zh_cn.format(String.valueOf(dataAdvancement.advancement.getDisplay().getTitle())));
-                    dataAdvancement.setChineseDesc(zh_cn.format(String.valueOf(dataAdvancement.advancement.getDisplay().getDescription())));
-                    dataAdvancement.setEnglishName(en_us.format(String.valueOf(dataAdvancement.advancement.getDisplay().getTitle())));
-                    dataAdvancement.setEnglishDesc(en_us.format(String.valueOf(dataAdvancement.advancement.getDisplay().getDescription())));
+                    dataAdvancement.setChineseName(zh_cn.format(getKey(dataAdvancement.advancement.getDisplay().getTitle())));
+                    dataAdvancement.setChineseDesc(zh_cn.format(getKey(dataAdvancement.advancement.getDisplay().getDescription())));
+                    dataAdvancement.setEnglishName(en_us.format(getKey(dataAdvancement.advancement.getDisplay().getTitle())));
+                    dataAdvancement.setEnglishDesc(en_us.format(getKey(dataAdvancement.advancement.getDisplay().getDescription())));
                     ADVANCEMENT.register(dataAdvancement.registerNameResourceLocation.getNamespace(),dataAdvancement);
                 }
             }
@@ -52,4 +54,9 @@ public class AdvancementDataManager {
         event.register(ADVANCEMENT.getRegisterObject());
     }
 
+    public static String getKey(ITextComponent textComponent){
+        if (textComponent instanceof TranslationTextComponent){
+            return ((TranslationTextComponent)textComponent).getKey();
+        }else return textComponent.getUnformattedComponentText();
+    }
 }
