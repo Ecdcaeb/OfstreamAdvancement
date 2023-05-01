@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runServer" type="Application" factoryName="Application" singleton="true">
+    <envs>
+      <env name="MOD_CLASSES" value="ofstream_t%%$PROJECT_DIR$/../OfstreamT\out\production\resources;ofstream_t%%$PROJECT_DIR$/../OfstreamT\out\production\classes" />
+      <env name="MCP_MAPPINGS" value="snapshot_20210309-1.16.5" />
+      <env name="MCP_VERSION" value="20210115.111550" />
+      <env name="FORGE_VERSION" value="36.1.31" />
+      <env name="FORGE_GROUP" value="net.minecraftforge" />
+      <env name="target" value="fmluserdevserver" />
+      <env name="MC_VERSION" value="1.16.5" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
+    <module name="OfstreamT.main" />
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OfstreamT\run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":prepareRunServer" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>
